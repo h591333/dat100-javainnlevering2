@@ -11,7 +11,7 @@ public class Matriser {
 	public static void skrivUt(int[][] matrise) {
 		for (int[] test : matrise) {
 			System.out.println();
-			 for (int i : test) {
+			for (int i : test) {
 			System.out.print(i + " ");
 				
 			 }
@@ -58,12 +58,19 @@ public class Matriser {
 		
 		boolean flag = true;
 	
+	
 		int tabell[][] = {
 			{1, 2, 3},
 			{4, 5, 6},
 			{7, 8, 9}
 			
 		};
+		 int tabell2[][] = {       
+                 {1, 2, 3},    
+                 {4, 5, 6},    
+                 {7, 8, 9}    
+    	};    
+		
 		
 		rad1 = a.length;
 		kollone1 = a[0].length;
